@@ -19,7 +19,7 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 - The trail material will dictate what the trail actually looks like
 
-- The Color Type refers to which color the trail will follow. If it's set to Left Saber, it will follow the color that the player has set for their left saber. If it's set to Custom colout it will override what the player has set and use the color that you set yourself in the next field
+- The Color Type refers to which color the trail will follow. If it's set to Left Saber, it will follow the color that the player has set for their left saber. If it's set to Custom color it will override what the player has set and use the color that you set yourself in the next field
 
 - The Length determines how long your trail will be. For most trails 20 is a bit too high, so chances are you will want to lower it, but feel free to experiment beforehand
 
