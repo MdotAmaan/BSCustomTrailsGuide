@@ -9,7 +9,7 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 ![addingscript](Images/addingscript.jpg)
 
-- We'll only look at the left saber for now and copy everything over to the right saber later.
+- Then unselect the RightSaber game object (We'll only look at the left saber for now and copy everything over to the right saber later).
 
 **The component should look something like this :**
 
