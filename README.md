@@ -11,7 +11,7 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 - We'll only look at the left saber for now and copy everything over to the right saber later.
 
-- **The component should look something like this :**
+**The component should look something like this :**
 
 ![script](Images/script.jpg)
 
