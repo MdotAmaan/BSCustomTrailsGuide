@@ -29,9 +29,19 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 ![empty](Images/empty.jpg)
 
-- Rename them to trailstart and trailend respectively (They can be called whatever you want. Just make sure you can easily differentiate them).
+- Rename them to TrailStart and TrailEnd respectively (They can be called whatever you want. Just make sure you can easily differentiate them).
 
-- Move trailend across the Z axis so that it's right at the tip of your saber. Then move trailstart to the point where you want your trail to start to show up
+- Move TrailEnd across the Z axis so that it's right at the tip of your saber. Then move TrailStart to the point where you want your trail to start showing up
+
+![points](Images/points.jpg)
+
+- Your start point may be further up or down your saber. It depends on how large (in width) you want your trail to be. 
+
+- Go back to your LeftSaber gameobject and assign the 2 emptys you created to the Point Start and Point End respectively.
+
+![pointsadded](Images/pointsadded.jpg)
+
+
 
 
 
