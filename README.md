@@ -23,4 +23,17 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 - The Length determines how long your trail will be. For most trails 20 is a bit too high, so chances are you will want to lower it, but feel free to experiment beforehand
 
+## Setting up the start and end points
+
+- Right-click the LeftSaber gameobject in the hierarchy and and create 2 emptys
+
+![empty](Images/empty.jpg)
+
+- Rename them to trailstart and trailend respectively (They can be called whatever you want. Just make sure you can easily differentiate them).
+
+- Move trailend across the Z axis so that it's right at the tip of your saber. Then move trailstart to the point where you want your trail to start to show up
+
+
+
+
 
