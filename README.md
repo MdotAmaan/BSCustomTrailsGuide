@@ -53,6 +53,7 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 ![hierarchy](Images/hierarchy.jpg)
 
+## Setting up the Trail Material
 
 
 
