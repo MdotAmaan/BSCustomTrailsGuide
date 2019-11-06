@@ -37,12 +37,21 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 - Your start point may be further up or down your saber. It depends on how large (in width) you want your trail to be. 
 
-- Go back to your LeftSaber gameobject and assign the 2 emptys you created to the Point Start and Point End respectively.
+- Go back to your LeftSaber gameobject and drag the 2 emptys you created from the hierarchy to Point Start and Point End respectively.
 
 ![pointsadded](Images/pointsadded.jpg)
 
+- You can easily copy these over to the RightSaber by selecting both your emptys and pressing Ctrl + D, then 
 
+- Drag the newly created points **onto** the RightSaber gameobject
 
+- Select the RightSaber gameobject and drag the newly created empties into the Point Start and Point End fields.
+
+- Also don't forget to set color type to Right Saber if you aren't using the Custom Color option for your trail.
+
+- It should look something like this
+
+![hierarchy](Images/hierarchy.jpg)
 
 
 
