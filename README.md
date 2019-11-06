@@ -55,5 +55,17 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 ## Setting up the Trail Material
 
+- First you will need to find a trail texture. This dictates the 'design' of your trail. They can be created using almost any photo editing software (Photoshop, paint, GIMP, etc). 
+
+- The image should have an aspect ratio of 1:1. It is preferrable to use a file format that supports transparancy, but other formats will work too as long as it can be handled by Unity.
+
+- Here is an example of the trail that I used for dotSpiral V1
+
+![Trail](Images/Trail.png)
+
+- In your project files, Right-click > Create > Material. Name this whatever you like (as long as it can be differentiated from the other materials).
+
+
+
 
 
