@@ -1,7 +1,7 @@
 # Mdot's Custom Trails Guide
-This guide covers the basics of adding Custom Trails to your sabers.
+A guide showing you how to set up a simple trail for your custom sabers.
 
-This guide will not cover how to make your model / import them into unity / etc. For more information on that see [angeliod0103's Guide](https://bs.assistant.moe/Sabers/)
+This guide assumes you have already followed [angeliod0103's Guide to making your own sabers](https://bs.assistant.moe/Sabers/). If you haven't looked at that yet, please do so before continuing with this guide.
 
 ## Custom Trail Script
 
