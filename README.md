@@ -19,11 +19,11 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 - The trail material will dictate what the trail actually looks like
 
-- The Color Type refers to which color the trail will follow. If it's set to Left Saber, it will follow the color that the player has set for their left saber. If it's set to Custom color it will override what the player has set and use the color that you set yourself in the next field
+- The Color Type refers to which color the trail will follow. If it's set to Left Saber, it will follow the color that the player has set for their left saber. If it's set to Custom color it will override what the player has set and use the color that you set yourself in the Trail Color field.
 
 - The Length determines how long your trail will be. For most trails 20 is a bit too high, so chances are you will want to lower it, but feel free to experiment beforehand
 
- *It is also possible to have more than one trail on each saber (For eg: [SnowResortPro](https://modelsaber.com/Sabers/?id=1571583763)). All you have to do is add another Trail script to each saber. But before that try to familiarize yourself with the basics.
+ *It is also possible to have more than one trail on each saber (For eg: [SnowResortPro](https://modelsaber.com/Sabers/?id=1571583763)). All you have to do is add another Trail script to each saber. But before that try to familiarize yourself with the basics.*
 
 ## Setting up the start and end points
 
@@ -71,7 +71,7 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 - After that, In your project files, Right-click > Create > Material. Name this whatever you like (as long as it can be differentiated from the other materials).
 
-- We will use the Particles/Additive shader for this trail. This is enough for a simple trail like this one. 
+- We will use the Particles/Additive shader for this trail. You could also experiment with other shaders depending on what effect you're going for. 
 	
 ![shader](Images/shader.jpg)
 
