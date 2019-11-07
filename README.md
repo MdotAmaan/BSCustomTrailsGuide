@@ -1,5 +1,4 @@
 # Mdot's Custom Trails Guide
-A guide showing you how to set up a simple trail for your custom sabers.
 
 This guide assumes you have already followed [angeliod0103's Guide to making your own sabers](https://bs.assistant.moe/Sabers/). If you haven't looked at that yet, please do so before continuing with this guide.
 
