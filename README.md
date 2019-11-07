@@ -1,5 +1,5 @@
 # Mdot's Custom Trails Guide
-A primer to implementing custom trails on your sabers.
+This guide covers the basics of adding Custom Trails to your sabers.
 
 This guide will not cover how to make your model / import them into unity / etc. For more information on that see [angeliod0103's Guide](https://bs.assistant.moe/Sabers/)
 
@@ -65,7 +65,7 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 ![Trail](Images/Trail.png)
 
-- Click on your trail texture and set Wrap Mode to Clamp and set Compression to none
+- Click on your trail texture and set Wrap Mode to Clamp and set Compression to none. **Then press Apply**
 
 ![trailimport](Images/trailimport.jpg)
 
