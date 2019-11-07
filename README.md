@@ -58,7 +58,7 @@ This guide assumes you have already followed [angeliod0103's Guide to making you
 
 - First you will need to find a trail texture. This dictates the "design" of your trail. They can be created using almost any photo editing software (Photoshop, paint, GIMP, etc). 
 
-- The image should have an aspect ratio of 1:1. It is preferrable to use a file format that supports transparancy, but other formats will work too as long as it can be handled by Unity.
+- It is preferrable to use a file format that supports transparancy, but other formats will work too as long as it can be handled by Unity.
 
 - Here is an example of the trail that's used in dotSpiral V1
 
