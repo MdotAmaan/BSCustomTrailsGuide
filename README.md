@@ -63,7 +63,14 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 ![Trail](Images/Trail.png)
 
+- Click on your trail texture and set Wrap Mode to Clamp and set Compression to none
+
+![trailimport](Images/trailimport.jpg)
+
 - In your project files, Right-click > Create > Material. Name this whatever you like (as long as it can be differentiated from the other materials).
+
+- We will use the Particles/Additive shader for this trail. This is enough for a simple trail like this one. 
+	- Click 
 
 
 
