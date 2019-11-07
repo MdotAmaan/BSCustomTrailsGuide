@@ -23,6 +23,8 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 - The Length determines how long your trail will be. For most trails 20 is a bit too high, so chances are you will want to lower it, but feel free to experiment beforehand
 
+- *It is also possible to have more than one trail on each saber (For eg: [SnowResortPro](https://modelsaber.com/Sabers/?id=1571583763)). All you have to do is add another Trail script to each saber. But before that try to familiarize yourself with the basics.
+
 ## Setting up the start and end points
 
 - Right-click the LeftSaber gameobject in the hierarchy and and create 2 emptys
@@ -88,6 +90,11 @@ This guide will not cover how to make your model / import them into unity / etc.
 - Each trail component should look something like this :
 
 ![finalscript](Images/fscript)
+
+- You can now export your sabers and use them in-game!
+
+**Before you upload your sabers to [Modelsaber](https://modelsaber.com/Sabers/), make sure you extensively playtest your sabers. Maybe even have someone else look at it beforehand. They may be able to spot something that you may have not caught yourself.
+
 
 
 
