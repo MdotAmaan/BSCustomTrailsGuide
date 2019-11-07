@@ -11,7 +11,7 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 - Then unselect the RightSaber game object (We'll only look at the left saber for now and copy everything over to the right saber later).
 
-**The component should look something like this :**
+- The component should look something like this :
 
 ![script](Images/script.jpg)
 
@@ -55,11 +55,11 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 ## Setting up the Trail Material
 
-- First you will need to find a trail texture. This dictates the 'design' of your trail. They can be created using almost any photo editing software (Photoshop, paint, GIMP, etc). 
+- First you will need to find a trail texture. This dictates the "design" of your trail. They can be created using almost any photo editing software (Photoshop, paint, GIMP, etc). 
 
 - The image should have an aspect ratio of 1:1. It is preferrable to use a file format that supports transparancy, but other formats will work too as long as it can be handled by Unity.
 
-- Here is an example of the trail that I used for dotSpiral V1
+- Here is an example of the trail that's used in dotSpiral V1
 
 ![Trail](Images/Trail.png)
 
@@ -67,10 +67,28 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 ![trailimport](Images/trailimport.jpg)
 
-- In your project files, Right-click > Create > Material. Name this whatever you like (as long as it can be differentiated from the other materials).
+- After that, In your project files, Right-click > Create > Material. Name this whatever you like (as long as it can be differentiated from the other materials).
 
 - We will use the Particles/Additive shader for this trail. This is enough for a simple trail like this one. 
-	- Click 
+	
+![shader](Images/shader.jpg)
+
+- Then we can add our trail texture to the material by adding it to the particle texture field
+
+![texture](Images/texture.jpg)
+
+- In the Tint Color field, you can adjust the alpha slider to determine how dark / bright your trail should be.
+
+![tint](Images/tint.jpg)
+
+- We're almost done! Now all you gotta do is add the trail material the scripts on both sabers
+
+- Select both sabers in your hierarchy and drag the material onto the Trail Material field.
+
+- Each trail component should look something like this :
+
+![finalscript](Images/fscript)
+
 
 
 
