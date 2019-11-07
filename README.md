@@ -89,11 +89,11 @@ This guide will not cover how to make your model / import them into unity / etc.
 
 - Each trail component should look something like this :
 
-![finalscript](Images/fscript)
+![finalscript](Images/fscript.jpg)
 
 - You can now export your sabers and use them in-game!
 
-**Before you upload your sabers to [Modelsaber](https://modelsaber.com/Sabers/), make sure you extensively playtest your sabers. Maybe even have someone else look at it beforehand. They may be able to spot something that you may have not caught yourself.
+**Before you upload your sabers to [Modelsaber](https://modelsaber.com/Sabers/), make sure you extensively playtest your sabers. Maybe even have someone else look at it beforehand. They may be able to spot something that you may have not caught yourself.**
 
 
 
