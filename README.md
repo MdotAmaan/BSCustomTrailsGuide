@@ -42,9 +42,9 @@ This guide assumes you have already followed [angeliod0103's Guide to making you
 
 ![pointsadded](Images/pointsadded.jpg)
 
-- You can easily copy these over to the RightSaber by selecting both your emptys and pressing Ctrl + D, then 
+- You can easily copy these over to the RightSaber by selecting both your emptys and pressing Ctrl + D
 
-- Drag the newly created points **onto** the RightSaber gameobject
+- Then drag the newly created points **onto** the RightSaber gameobject
 
 - Select the RightSaber gameobject and drag the newly created empties into the Point Start and Point End fields.
 
@@ -74,15 +74,15 @@ This guide assumes you have already followed [angeliod0103's Guide to making you
 	
 ![shader](Images/shader.jpg)
 
-- Then we can add our trail texture to the material by adding it to the particle texture field
+- Then we can add our trail texture to the material by adding it to the Particle Texture field
 
 ![texture](Images/texture.jpg)
 
-- In the Tint Color field, you can adjust the alpha slider to determine how dark / bright your trail should be.
+- In the Tint Color field, you can adjust the alpha slider to determine how dark / bright your trail will be.
 
 ![tint](Images/tint.jpg)
 
-- We're almost done! Now all you gotta do is add the trail material the scripts on both sabers
+- We're almost done! Now all you gotta do is add the trail material to both sabers.
 
 - Select both sabers in your hierarchy and drag the material onto the Trail Material field.
 
@@ -92,7 +92,7 @@ This guide assumes you have already followed [angeliod0103's Guide to making you
 
 - You can now export your sabers and use them in-game!
 
-**Before you upload your sabers to [Modelsaber](https://modelsaber.com/Sabers/), make sure you extensively playtest your sabers. Maybe even have someone else look at it beforehand. They may be able to spot something that you may have not caught yourself.**
+**Before you upload your sabers to [Modelsaber](https://modelsaber.com/Sabers/), make sure you playtest your sabers. Maybe even have someone else look at it beforehand. They may be able to spot something that you may have not caught yourself.**
 
 
 
