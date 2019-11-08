@@ -22,7 +22,7 @@ It assumes you have already followed [angeliod0103's Guide to making your own sa
 
 - The Color Type refers to which color the trail will follow. If it's set to Left Saber, it will follow the color that the player has set for their left saber. If it's set to Custom color it will override what the player has set and use the color that you set yourself in the Trail Color field.
 
-- The Length determines how long your trail will be. For most trails 20 is a bit too high, so chances are you will want to lower it, but feel free to experiment beforehand
+- The Length determines how long your trail will be. For most trails 20 is a bit too high, so chances are you will want to lower it, but feel free to experiment beforehand.
 
  *It is also possible to have more than one trail on each saber (For eg: [SnowResortPro](https://modelsaber.com/Sabers/?id=1571583763)). All you have to do is add another Trail script to each saber and repeat the next few steps for the second trail.*
 
@@ -34,7 +34,7 @@ It assumes you have already followed [angeliod0103's Guide to making your own sa
 
 - Rename them to TrailStart and TrailEnd respectively (They can be called whatever you want. Just make sure you can easily differentiate them).
 
-- Move TrailEnd across the Z axis so that it's right at the tip of your saber. Then move TrailStart to the point where you want your trail to start showing up
+- Move TrailEnd across the Z axis so that it's right at the tip of your saber. Then move TrailStart to the point where you want your trail to start showing up.
 
 ![points](Images/points.jpg)
 
@@ -44,9 +44,9 @@ It assumes you have already followed [angeliod0103's Guide to making your own sa
 
 ![pointsadded](Images/pointsadded.jpg)
 
-- You can easily copy these over to the RightSaber by selecting both your emptys and pressing Ctrl + D
+- Duplicate these points for the RightSaber by selecting both your emptys and pressing Ctrl + D.
 
-- Then drag the newly created points **onto** the RightSaber gameobject
+- Then drag the newly created points **onto** the RightSaber gameobject.
 
 - Select the RightSaber gameobject and drag the newly created empties into the Point Start and Point End fields.
 
@@ -62,7 +62,7 @@ It assumes you have already followed [angeliod0103's Guide to making your own sa
 
 - It is preferrable to use a file format that supports transparancy, but other formats will work too as long as it can be handled by Unity.
 
-- Here is an example of the trail that's used in dotSpiral V1
+- Here is an example of the trail that's used in dotSpiral V1 :
 
 ![Trail](Images/Trail.png)
 
