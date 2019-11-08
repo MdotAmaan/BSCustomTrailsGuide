@@ -24,7 +24,7 @@ It assumes you have already followed [angeliod0103's Guide to making your own sa
 
 - The Length determines how long your trail will be. For most trails 20 is a bit too high, so chances are you will want to lower it, but feel free to experiment beforehand.
 
- *It is also possible to have more than one trail on each saber (For eg: [SnowResortPro](https://modelsaber.com/Sabers/?id=1571583763)). All you have to do is add another Trail script to each saber and repeat the next few steps for the second trail.*
+ *It is also possible to have more than one trail on each saber (For eg: [SnowResortPro](https://modelsaber.com/Sabers/?id=1571583763) by Harufa). All you have to do is add another Trail script to each saber and repeat the next few steps for the second trail.*
 
 ## Setting up the start and end points
 
