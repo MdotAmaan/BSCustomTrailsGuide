@@ -1,4 +1,4 @@
-# Mdot's Custom Trails Guide
+###Written by Mdot
 
 This guide assumes you have already followed [angeliod0103's Guide to making your own sabers](https://bs.assistant.moe/Sabers/). If you haven't looked at that yet, please do so before continuing with this guide.
 
@@ -63,6 +63,8 @@ This guide assumes you have already followed [angeliod0103's Guide to making you
 - Here is an example of the trail that's used in dotSpiral V1
 
 ![Trail](Images/Trail.png)
+
+	- Since I used an additive shader, black will count as transparancy
 
 - Click on your trail texture and set Wrap Mode to Clamp and set Compression to none. **Then press Apply**
 
