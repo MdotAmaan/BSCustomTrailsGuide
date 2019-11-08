@@ -1,6 +1,8 @@
-## Mdot's Custom Trails Guide
+## Getting started
 
-This guide assumes you have already followed [angeliod0103's Guide to making your own sabers](https://bs.assistant.moe/Sabers/). If you haven't looked at that yet, please do so before continuing with this guide.
+This guide will show you how to get a simple custom trail working on your sabers
+
+It assumes you have already followed [angeliod0103's Guide to making your own sabers](https://bs.assistant.moe/Sabers/). If you haven't looked at that yet, please do so before continuing with this guide.
 
 ## Custom Trail Script
 
