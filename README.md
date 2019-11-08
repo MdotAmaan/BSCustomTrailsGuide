@@ -66,7 +66,7 @@ It assumes you have already followed [angeliod0103's Guide to making your own sa
 
 ![Trail](Images/Trail.png)
 
-- - Since I used an additive shader, black will count as transparancy
+ - Since I used an additive shader, black will count as transparancy
 
 - Click on your trail texture and set Wrap Mode to Clamp and set Compression to none. **Then press Apply**
 
