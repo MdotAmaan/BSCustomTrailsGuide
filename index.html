@@ -53,17 +53,13 @@ BeatSaber
 <div class="navbar-menu" id="navMenu">
 <div class="navbar-start">
 <a class="navbar-item" href="#Intro">
-Intro
+Getting Started
 </a>
-<a class="navbar-item" href="#Preparation">
-Preparation</a>
 <a class="navbar-item" href="#Setup">The Custom Trail Script</a>
 <a class="navbar-item" href="#Modeling">
 Start and End Points</a>
 <a class="navbar-item" href="#Unity">
 Trail Material and Texture</a>
-<a class="navbar-item" href="#Advanced">
-Advanced</a>
 </div>
 <div class="navbar-end">
 <a class="navbar-item donate" target="_blank" href="https://bs.assistant.moe/Donate">
@@ -98,17 +94,11 @@ Advanced</a>
 		<a href="https://legoandmars.github.io/">MissRaynor's Guide For Making 
 		Custom Sabers</a>. If you haven’t looked at that yet, please do so 
 		before continuing with this guide.</p>
-    </div>
-</section>
-
-<section class="section">
-    <div class="content">
-        <h3 id="Preparation" class="title">Preparation</h3>
-        <hr>
-        <p><a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>, 
+		<p>You will need an image editing software such as
+		<a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>, 
 		<a href="https://www.gimp.org/downloads/">GIMP</a> 
-			or <a href="https://getpaint.net">Paint.net</a> (If you are editing 
-		/ creating your own trail texture)</p>
+			or <a href="https://getpaint.net">Paint.net</a> If you are editing / 
+		creating your own trail texture</p>
     </div>
 </section>
 
@@ -119,12 +109,12 @@ Advanced</a>
         <p>Select the <kbd>RightSaber</kbd> and <kbd>LeftSaber</kbd> game objects and add the 
 			Custom Trail script by clicking on the <kbd>Add Component</kbd> button in the 
 			inspector.</p>
-		<p><img alt="addingscript" src="addingscript.jpg"></p>
+		<p><img alt="addingscript" src="Images/addingscript.jpg"></p>
         <p>Then unselect the <kbd>RightSaber</kbd> game object (We’ll only look at the 
 			left saber for now and copy everything over to the right saber 
 			later).</p>
 		<p>The component should look something like this :</p>
-        <p class="image-container"><img alt="script" src="script.jpg"></p>
+        <p class="image-container"><img alt="script" src="Images/script.jpg"></p>
 		<p><kbd>Point Start</kbd> and <kbd>Point End</kbd> refer to the points on the saber where the 
 		trails will start and end</p>
 		<p>The <kbd>Trail Material</kbd> will dictate what the trail actually looks 
@@ -151,7 +141,7 @@ Advanced</a>
         <p>Right-click the <kbd>LeftSaber</kbd> gameobject in the hierarchy and and 
 			create 2 emptys</p>
 		<p>
-		<img alt="empty" src="https://mdotamaan.github.io/BeatSaber-CustomTrailsGuide/Images/empty.jpg"></p>
+		<img alt="empty" src="Images/empty.jpg"></p>
 		<p>Rename them to TrailStart and TrailEnd respectively (They can be 
 			called whatever you want. Just make sure you can easily 
 			differentiate them).</p>
@@ -159,14 +149,14 @@ Advanced</a>
 			your saber. Then move TrailStart to the point where you want your 
 			trail to start showing up.</p>
 		<p>
-		<img alt="points" src="https://mdotamaan.github.io/BeatSaber-CustomTrailsGuide/Images/points.jpg"></p>
+		<img alt="points" src="Images/points.jpg"></p>
 		<p>Your start point may be further up or down your saber. It depends 
 			on how large (in width) you want your trail to be.</p>
 		<p>Go back to your <kbd>LeftSaber</kbd> gameobject and drag the 2 emptys you 
 			created from the hierarchy to Point Start and Point End 
 			respectively.</p>
 		<p>
-		<img alt="pointsadded" src="https://mdotamaan.github.io/BeatSaber-CustomTrailsGuide/Images/pointsadded.jpg"></p>
+		<img alt="pointsadded" src="Images/pointsadded.jpg"></p>
 			
 			<p>Duplicate these points for the <kbd>RightSaber</kbd> by selecting both your 
 			emptys and pressing Ctrl + D.</p>
@@ -180,7 +170,7 @@ Advanced</a>
         	</div>  
 			<p>It should look something like this: </p>
 		<p>
-		<img alt="hierarchy" src="https://mdotamaan.github.io/BeatSaber-CustomTrailsGuide/Images/hierarchy.jpg"></p>
+		<img alt="hierarchy" src="Images/hierarchy.jpg"></p>
     </div>
 </section>
 
@@ -195,7 +185,7 @@ Advanced</a>
 			transparancy, but other formats will work too as long as it can be 
 			handled by Unity.</p>
 		<p>Here is an example of the trail that’s used in dotSpiral V1 :</p>
-		<p><img alt="Trail" src="Trail.png"></p>
+		<p><img alt="Trail" src="Images/Trail.png"></p>
 		<div class="language-plaintext highlighter-rouge">
 		</div>
 		<div class="notification is-info" style="left: 0px; top: 0px">
@@ -203,26 +193,26 @@ Advanced</a>
         </div>
 		<p>Click on your trail texture and set Wrap Mode to <kbd>Clamp</kbd> and set 
 			Compression to <kbd>None</kbd>. <strong>Then press Apply</strong></p>
-		<p><img alt="trailimport" src="trailimport.jpg"></p>
+		<p><img alt="trailimport" src="Images/trailimport.jpg"></p>
 		<p>After that, In your project files, Right-click &gt; Create &gt; 
 			<kbd>Material</kbd>. Name this whatever you like (as long as it can be 
 			differentiated from the other materials).</p>
 		<p>We will use the <kbd>Particles/Additive</kbd> shader for this trail. You 
 			could also experiment with other shaders depending on what effect 
 			you’re going for.</p>
-		<p><img alt="shader" src="shader.jpg"></p>
+		<p><img alt="shader" src="Images/shader.jpg"></p>
 		<p>Then we can add our trail texture to the material by adding it 
 			to the <kbd>Particle Texture field</kbd></p>
-		<p><img alt="texture" src="texture.jpg"></p>
+		<p><img alt="texture" src="Images/texture.jpg"></p>
 		<p>In the <kbd>Tint Color</kbd> field, you can adjust the alpha slider to 
 			determine how dark / bright your trail will be.</p>
-		<p><img alt="tint" src="tint.jpg"></p>
+		<p><img alt="tint" src="Images/tint.jpg"></p>
 		<p>We’re almost done! Now all you gotta do is add the trail material 
 			to both sabers.</p>
 		<p>Select both sabers in your hierarchy and drag the material onto 
 			the <kbd>Trail Material</kbd> field.</p>
 		<p>Each trail component should look something like this :</p>
-		<p><img alt="finalscript" src="fscript.jpg"></p>
+		<p><img alt="finalscript" src="Images/fscript.jpg"></p>
 		<p>You're now done! Export your sabers using the <kbd>Saber Exporter</kbd> and use them in-game!</p>
 		<div class="notification is-info" style="left: 0px; top: 0px">
             <i class="fas fa-exclamation-triangle"> <strong>NOTE:</strong></i> Before you upload your sabers to 
