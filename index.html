@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://cdn.assistant.moe/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://cdn.assistant.moe/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://cdn.assistant.moe/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://cdn.assistant.moe/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://cdn.assistant.moe/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://cdn.assistant.moe/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://cdn.assistant.moe/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://cdn.assistant.moe/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.assistant.moe/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://cdn.assistant.moe/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.assistant.moe/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://cdn.assistant.moe/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.assistant.moe/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://cdn.assistant.moe/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://cdn.assistant.moe/favicon/favicon/ms-icon-144x144.png">
+
+
+<meta content="Mdot's Guide For Custom Trails" property="og:site_name">
+<meta content="Custom Sabers Trails Guide" property="og:title">
+<meta content="Because your waifu needs her trusty weapon to look cooler" property="og:description">
+<meta content="#72b3e1" name="theme-color">
+<meta content="https://legoandmars.github.io/resources/raynor_32px.png" property="og:image">
+
+<title>Mdot's Guide For Custom Trails</title>
+<link href="https://cdn.assistant.moe/css/bulma.css" media="screen" rel="stylesheet">
+<link href="https://cdn.assistant.moe/css/custom.css" rel="stylesheet">
+<link href="https://cdn.assistant.moe/css/light.css" id="light-theme" rel="stylesheet">
+<link href="https://cdn.assistant.moe/css/dark.css" id="dark-theme" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.assistant.moe/js/theme.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.assistant.moe/css/transition.css" id="theme">
+<script src="https://cdn.assistant.moe/js/youtube.js"></script>
+</head>
+<body>
+
+<nav class="navbar has-shadow" aria-label="main navigation">
+<div class="container">
+<div class="navbar-brand">
+<a class="navbar-item" href="/">
+BeatSaber
+</a>
+<a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</a>
+</div>
+<div class="navbar-menu" id="navMenu">
+<div class="navbar-start">
+<a class="navbar-item" href="#Intro">
+Intro
+</a>
+<a class="navbar-item" href="#Preparation">
+Preparation</a>
+<a class="navbar-item" href="#Setup">The Custom Trail Script</a>
+<a class="navbar-item" href="#Modeling">
+Start and End Points</a>
+<a class="navbar-item" href="#Unity">
+Trail Material and Texture</a>
+<a class="navbar-item" href="#Advanced">
+Advanced</a>
+</div>
+<div class="navbar-end">
+<a class="navbar-item donate" target="_blank" href="https://bs.assistant.moe/Donate">
+<i class="fab fa-gratipay fa-2x"></i>
+</a>
+<a class="navbar-item discord" target="_blank" href="https://discord.gg/beatsabermods">
+<i class="fab fa-discord fa-2x" title="Join the Beat Saber Mod Group"></i>
+</a>
+</div>
+</div>
+</div>
+</nav>
+
+<div class="container">
+<br>
+
+<section class="hero">
+<div class="hero-body notification">
+<h3 class="title">Custom Trails</h3>
+<hr>
+	Mdot's Guide For Setting Up Custom Trails</div>
+</section>
+
+
+<section class="section">
+    <div class="content">
+        <h3 id="Intro" class="title">Getting Started</h3>
+        <hr>
+        <p>This guide will show you how to get a simple custom trail working on 
+		your sabers.</p>
+		<p>It assumes you have already followed
+		<a href="https://legoandmars.github.io/">MissRaynor's Guide For Making 
+		Custom Sabers</a>. If you haven’t looked at that yet, please do so 
+		before continuing with this guide.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="content">
+        <h3 id="Preparation" class="title">Preparation</h3>
+        <hr>
+        <p><a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>, 
+		<a href="https://www.gimp.org/downloads/">GIMP</a> 
+			or <a href="https://getpaint.net">Paint.net</a> (If you are editing 
+		/ creating your own trail texture)</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="content">
+        <h3 id="Setup" class="title">The Custom Trail Script</h3>
+        <hr>
+        <p>Select the <kbd>RightSaber</kbd> and <kbd>LeftSaber</kbd> game objects and add the 
+			Custom Trail script by clicking on the <kbd>Add Component</kbd> button in the 
+			inspector.</p>
+		<p><img alt="addingscript" src="addingscript.jpg"></p>
+        <p>Then unselect the <kbd>RightSaber</kbd> game object (We’ll only look at the 
+			left saber for now and copy everything over to the right saber 
+			later).</p>
+		<p>The component should look something like this :</p>
+        <p class="image-container"><img alt="script" src="script.jpg"></p>
+		<p><kbd>Point Start</kbd> and <kbd>Point End</kbd> refer to the points on the saber where the 
+		trails will start and end</p>
+		<p>The <kbd>Trail Material</kbd> will dictate what the trail actually looks 
+			like</p>
+		<p>The <kbd>Color Type</kbd> refers to which color the trail will follow. If 
+			it’s set to Left Saber, it will follow the color that the player has 
+			set for their left saber. If it’s set to Custom color it will 
+			override what the player has set and use the color that you set 
+			yourself in the Trail Color field.</p>
+		<p>The <kbd>Length</kbd> determines how long your trail will be. For most 
+			trails, 20 is a bit too high, so chances are you will want to lower 
+			it, but feel free to experiment beforehand.</p>
+		<div class="notification is-info" style="left: 0px; top: 0px">
+            <i class="fas fa-exclamation-triangle"> <strong>NOTE:</strong></i> It is also possible to have more than one trail on each saber (For eg: 
+			<a href="https://modelsaber.com/Sabers/?id=1571583763">SnowResortPro</a> by Harufa). All you have to do is add another Trail script to each saber and repeat the next few steps for the second trail.
+        </div>                
+
+    </div>
+</section>
+<section class="section">
+    <div class="content">
+        <h3 id="Modeling" class="title">Setting Up Start and End Points</h3>
+        <hr>
+        <p>Right-click the <kbd>LeftSaber</kbd> gameobject in the hierarchy and and 
+			create 2 emptys</p>
+		<p>
+		<img alt="empty" src="https://mdotamaan.github.io/BeatSaber-CustomTrailsGuide/Images/empty.jpg"></p>
+		<p>Rename them to TrailStart and TrailEnd respectively (They can be 
+			called whatever you want. Just make sure you can easily 
+			differentiate them).</p>
+		<p>Move TrailEnd across the Z axis so that it’s right at the tip of 
+			your saber. Then move TrailStart to the point where you want your 
+			trail to start showing up.</p>
+		<p>
+		<img alt="points" src="https://mdotamaan.github.io/BeatSaber-CustomTrailsGuide/Images/points.jpg"></p>
+		<p>Your start point may be further up or down your saber. It depends 
+			on how large (in width) you want your trail to be.</p>
+		<p>Go back to your <kbd>LeftSaber</kbd> gameobject and drag the 2 emptys you 
+			created from the hierarchy to Point Start and Point End 
+			respectively.</p>
+		<p>
+		<img alt="pointsadded" src="https://mdotamaan.github.io/BeatSaber-CustomTrailsGuide/Images/pointsadded.jpg"></p>
+			
+			<p>Duplicate these points for the <kbd>RightSaber</kbd> by selecting both your 
+			emptys and pressing Ctrl + D.</p>
+			<p>Then drag the newly created points <strong>onto</strong> the 
+			<kbd>RightSaber</kbd> gameobject.</p>
+			<p>Select the <kbd>RightSaber</kbd> gameobject and drag the newly created 
+			empties into the Point Start and Point End fields.</p>
+			<div class="notification is-warning">
+            <i class="fas fa-exclamation-triangle"></i> <strong>Warning:</strong> Don’t forget to set color type to Right Saber if you aren’t 
+			using the Custom Color option for your trail.
+        	</div>  
+			<p>It should look something like this: </p>
+		<p>
+		<img alt="hierarchy" src="https://mdotamaan.github.io/BeatSaber-CustomTrailsGuide/Images/hierarchy.jpg"></p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="content">
+        <h3 id="Unity" class="title">Setting Up The Trail Material</h3>
+        <hr>
+        <p>First you will need to find a trail texture. This dictates the 
+			“design” of your trail. They can be created using almost any image 
+			editing software.</p>
+		<p>It is preferrable to use a file format that supports 
+			transparancy, but other formats will work too as long as it can be 
+			handled by Unity.</p>
+		<p>Here is an example of the trail that’s used in dotSpiral V1 :</p>
+		<p><img alt="Trail" src="Trail.png"></p>
+		<div class="language-plaintext highlighter-rouge">
+		</div>
+		<div class="notification is-info" style="left: 0px; top: 0px">
+            <i class="fas fa-exclamation-triangle"> <strong>NOTE:</strong></i> Since I used an additive shader, black will act as transparancy
+        </div>
+		<p>Click on your trail texture and set Wrap Mode to <kbd>Clamp</kbd> and set 
+			Compression to <kbd>None</kbd>. <strong>Then press Apply</strong></p>
+		<p><img alt="trailimport" src="trailimport.jpg"></p>
+		<p>After that, In your project files, Right-click &gt; Create &gt; 
+			<kbd>Material</kbd>. Name this whatever you like (as long as it can be 
+			differentiated from the other materials).</p>
+		<p>We will use the <kbd>Particles/Additive</kbd> shader for this trail. You 
+			could also experiment with other shaders depending on what effect 
+			you’re going for.</p>
+		<p><img alt="shader" src="shader.jpg"></p>
+		<p>Then we can add our trail texture to the material by adding it 
+			to the <kbd>Particle Texture field</kbd></p>
+		<p><img alt="texture" src="texture.jpg"></p>
+		<p>In the <kbd>Tint Color</kbd> field, you can adjust the alpha slider to 
+			determine how dark / bright your trail will be.</p>
+		<p><img alt="tint" src="tint.jpg"></p>
+		<p>We’re almost done! Now all you gotta do is add the trail material 
+			to both sabers.</p>
+		<p>Select both sabers in your hierarchy and drag the material onto 
+			the <kbd>Trail Material</kbd> field.</p>
+		<p>Each trail component should look something like this :</p>
+		<p><img alt="finalscript" src="fscript.jpg"></p>
+		<p>You're now done! Export your sabers using the <kbd>Saber Exporter</kbd> and use them in-game!</p>
+		<div class="notification is-info" style="left: 0px; top: 0px">
+            <i class="fas fa-exclamation-triangle"> <strong>NOTE:</strong></i> Before you upload your sabers to 
+			<a href="https://modelsaber.com/Sabers/">Modelsaber</a>, make sure you playtest your sabers. Maybe even have someone else look at it beforehand. They may be able to spot something that you may have not caught yourself.
+        </div>    
+		<script src="https://cdn.assistant.moe/js/burger.js"></script>
+<script src="https://cdn.assistant.moe/js/imagefit.js"></script>
+</div>
+</section>
+</div>
+</body>
+</html>
