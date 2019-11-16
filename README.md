@@ -1,1 +1,1 @@
-![View the Guide](https://mdotamaan.github.io/BeatSaber-CustomTrailsGuide/)
+[View the Guide](https://mdotamaan.github.io/BeatSaber-CustomTrailsGuide/)
